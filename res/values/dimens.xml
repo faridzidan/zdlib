@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <!-- if you want a smaller min height then set that where you embed
+    the msg fragment. Global setting ensures a visible top and bottom padding
+    for the progressbar -->
+	<dimen name="zdlib_msg_fragment_min_height">64dp</dimen>
+	
+	<dimen name="zdlib_dialoglistPreferredItemPaddingStart">16dp</dimen>
+	<dimen name="zdlib_dialoglistPreferredItemPaddingEnd">16dp</dimen>
+	
+	<!-- minimum touchable height and width -->
+	<dimen name="zdlib_min_touchable_height">48dp</dimen>
+	<dimen name="zdlib_min_touchable_width">48dp</dimen>
+		
+</resources>
