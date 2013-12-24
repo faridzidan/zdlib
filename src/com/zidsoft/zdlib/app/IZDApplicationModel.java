@@ -26,6 +26,12 @@
 
 import com.zidsoft.zdlib.mvp.IModel;
 
+/**
+ * Application model interface.
+ * 
+ * @author faridz
+ *
+ */
 public interface IZDApplicationModel extends IModel {
 	/**
 	 * Get user-specific key for the given key and current user. Returned

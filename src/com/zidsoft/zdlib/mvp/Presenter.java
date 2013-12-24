@@ -30,9 +30,10 @@ import android.content.Context;
 
 
 /**
- * Base presenter class. Presenter may optionally listen to model changes by
- * adding the presenter to the model change listeners, usually done, when presenter
- * creates the model.
+ * Base presenter class. Presenter listens to model notifications while the
+ * the presenter is attached to a view and routes the relevant events to the
+ * attached view.
+ * 
  * @author faridz
  *
  * @param <IM> model interface
