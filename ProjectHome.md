@@ -1,0 +1,1 @@
+An Android application framework for asynchronous data access using service objects.
